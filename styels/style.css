@@ -438,29 +438,25 @@ footer {
     cursor: pointer;
 }
 
-/* Checkbox ta ke sobar jonno hide rakho */
 .nav-toggle {
     display: none;
 }
 
-/* Episode card-er vitorer iframe ke responsive kora */
 .episode-card iframe {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    display: block; /* Gap komanor jonno */
+    display: block; 
 }
 
-/* Age thaka thumbnail-er padding/margin thakle oita remove korbe automatically */
 .episode-card {
     background: var(--card-bg);
     border-radius: 20px;
-    overflow: hidden; /* Jate video-r corner round thake */
+    overflow: hidden; 
     transition: var(--transition);
 }
 
 .episode-grid {
     display: grid;
-    /* 300px theke shuru hobe, screen choto hole ekta niche arekta nambe */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 30px;
     margin-top: 40px;
@@ -480,14 +476,14 @@ footer {
         padding: 30px;
     }
     .nav-links {
-        gap: 15px; /* Spacing ektu komano holo */
+        gap: 15px;
     }
 }
 
 /* --- Small Devices (576px) --- */
 @media (max-width: 576px) {
     .hamburger {
-        display: flex; /* Hamburger show hobe */
+        display: flex;
         flex-direction: column;
         gap: 5px;
     }
@@ -513,14 +509,13 @@ footer {
         border-bottom: 2px solid #e52e71;
         z-index: 999;
     }
-
-    /* MAGIC: Checkbox checked hole menu show korbe */
+    
     .nav-toggle:checked ~ .nav-links {
         display: flex;
     }
 
     .nav-btn {
-        display: none; /* Mobile e main button hide */
+        display: none; 
     }
 
     .banner h1 {
