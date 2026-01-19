@@ -333,6 +333,7 @@ body {
 /* Host Section */
 .host-section {
     padding: 80px 10%;
+    margin-bottom: 50px;
 }
 
 .host-card {
@@ -370,6 +371,7 @@ body {
 
 /* Footer */
 footer {
+    margin-top: 50px; 
     padding: 80px 10% 40px;
     text-align: center;
     position: relative;
