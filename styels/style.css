@@ -113,8 +113,8 @@ body {
     align-items: center;
 }
 .podcast-circle {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     background-image: url('./images/hero-circle.png');
     background-size: cover;
     background-position: center;
@@ -404,7 +404,7 @@ footer {
     padding: 80px 10% 40px;
     text-align: center;
     position: relative;
-    background-image: linear-gradient(rgba(13, 1, 33, 0), rgba(13, 1, 33, 0.92)), url('./images/footer-bg.png');
+    background-image:  url('./images/footer-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -497,7 +497,7 @@ footer {
 
     /* Mobile menu structure */
     .navbar .nav-links {
-        display: none; /* Initially hide thakbe */
+        display: none;
         position: absolute;
         top: 75px;
         left: 0;
