@@ -587,8 +587,17 @@ footer {
         flex-direction: column;
         width: 100%;
         padding: 0 20px;
+        align-items: center;
+        width: auto;
+        gap: 15px; 
     }
-
+    .btn-gradient, .btn-outline {
+        width: fit-content; 
+        min-width: 200px;      
+        justify-content: center;
+        padding: 12px 30px;  
+    }
+    
     /* --- Footer Background Fix --- */
     footer {
         padding: 50px 5% 30px;
