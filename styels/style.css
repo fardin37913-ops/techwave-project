@@ -29,7 +29,7 @@ body {
     gap: 10px;
     background: var(--accent-gradient);
     border: none;
-    padding: 12px 24px;
+    padding: 10px 20px;
     border-radius: 25px;
     color: rgb(240, 245, 240);
     font-weight: 600;
