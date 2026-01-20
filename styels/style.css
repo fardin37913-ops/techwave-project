@@ -111,6 +111,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .podcast-circle {
     width: 250px;
@@ -460,6 +461,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
 }
 
 .footer-content {
@@ -538,7 +540,7 @@ footer {
         flex-direction: column;
         gap: 5px;
     }
-
+    
     .hamburger span {
         width: 25px;
         height: 3px;
